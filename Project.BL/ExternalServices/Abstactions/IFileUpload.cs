@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.Internal;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Project.BL.ExternalServices.Abstactions
 {
     public interface IFileUpload
     {
-        Task<string> UploadFile(FormFile file, string envPath);
+        Task<string> UploadFile(IFormFile filePath, string allowedExtensions);
         Task DeleteFile( string envPath);
     }
 }

@@ -275,3 +275,15 @@ C:\Users\classtime\source\repos\ProjectApp\Project.MVC\bin\Debug\net8.0\runtimes
 C:\Users\classtime\source\repos\ProjectApp\Project.MVC\bin\Debug\net8.0\Project.MVC.staticwebassets.runtime.json
 C:\Users\classtime\source\repos\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.RazorAssemblyInfo.cache
 C:\Users\classtime\source\repos\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.RazorAssemblyInfo.cs
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.csproj.AssemblyReference.cache
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.AssemblyInfoInputs.cache
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.AssemblyInfo.cs
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.csproj.CoreCompileInputs.cache
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.RazorAssemblyInfo.cache
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.RazorAssemblyInfo.cs
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.sourcelink.json
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.dll
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\refint\Project.MVC.dll
+C:\Users\classtime\Desktop\ProjectMVC\ProjectApp\Project.MVC\obj\Debug\net8.0\Project.MVC.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "07oi2L4ijZHfd1RY2dMFIXZEXqJWEu1Bm7wZ398UlnqZIL7a25XEhnlRKoVS9JOklMQXI+uJ8s9McTe4OttH3g==",
+  "dgSpecHash": "cmffkcAfWgx7OyAhV+M8pR91oCh+U+mVXP/A3kRtB0xvpTTGJ0Aa71wNnN3jhaNIWZ/EmYSMeZIj2ALTtPeRnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\classtime\\source\\repos\\ProjectApp\\Project.DAL\\Project.DAL.csproj",
+  "projectFilePath": "C:\\Users\\classtime\\Desktop\\ProjectMVC\\ProjectApp\\Project.DAL\\Project.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\classtime\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\classtime\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

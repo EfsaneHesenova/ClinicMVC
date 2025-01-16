@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eae5NpgLAX4Nxqu61Q4k70fan1f0gBQlChn7YJrUhncYuBuItJXFxN6vn7OjSxcrNLh9oILO0MleSN/S53bApQ==",
+  "dgSpecHash": "jaldxnFkGOULjWI4cjEz0VKLTYhSzPAdZqvsGA2SrkYJXuKJX3JQdQwAZ5RH6HD16XEI3nbmETNetU5DQIO7vA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\classtime\\source\\repos\\ProjectApp\\Project.MVC\\Project.MVC.csproj",
+  "projectFilePath": "C:\\Users\\classtime\\Desktop\\ProjectMVC\\ProjectApp\\Project.MVC\\Project.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\classtime\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\classtime\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

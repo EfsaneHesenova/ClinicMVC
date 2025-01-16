@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.Internal;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Internal;
 using Project.BL.ExternalServices.Abstactions;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,9 @@ namespace Project.BL.ExternalServices.Implementations
             throw new NotImplementedException();
         }
 
-        public Task<string> UploadFile(FormFile file, string envPath)
+        public Task<string> UploadFile(IFormFile filePath, string allowedExtensions)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

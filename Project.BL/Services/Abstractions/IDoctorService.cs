@@ -13,8 +13,9 @@ namespace Project.BL.Services.Abstractions
         Task<bool> CreateDoctorAsync(DoctorPostDto dto);
         Task<bool> DeleteDoctorAsync(int id);
         Task<bool> UpdateDoctorAsync(DoctorPutDto dto);
-
         Task<ICollection<Doctor>> GetAllDoctorAsync();
         Task<Doctor> GetByIdDoctorAsync(int id);
+        Task<bool> RestoreDoctorAsync(int id);
+        Task<bool> SoftDelete( int id);
     }
 }

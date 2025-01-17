@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Project.DAL.Contexts
 {
-    public class AppdbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public AppdbContext(DbContextOptions<AppdbContext> options) : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Department> Departments { get; set; }

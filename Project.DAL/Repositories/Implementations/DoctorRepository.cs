@@ -11,7 +11,7 @@ namespace Project.DAL.Repositories.Implementations
 {
     public class DoctorRepository : Repository<Doctor>, IDoctorRepository
     {
-        public DoctorRepository(AppdbContext context) : base(context)
+        public DoctorRepository(AppDbContext context) : base(context)
         {
         }
     }

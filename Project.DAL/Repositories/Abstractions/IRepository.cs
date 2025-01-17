@@ -14,14 +14,14 @@ namespace Project.DAL.Repositories.Abstractions
     {
         DbSet<T> Table {  get; }
         Task CreateAsync(T entity);
-        void UpdateAsync(T entity);
-        void DeleteAsync(T entity);
+        void Update(T entity);
+        void Delete(T entity);
         Task<ICollection<T>> GetAllAsync();        
         Task<T> GetByIdAsync(int id, params string[] includes);
         Task<int> SaveChangesAsync();
         IQueryable<T> GetAllByCondition(Expression<Func<T, bool>> condition);
-        IQueryable<T> GetSingleByCondition(Expression<Func<T, bool>> condition);
-        Task IsExistAsync(int id);
+        Task<T> GetSingleByCondition(Expression<Func<T, bool>> condition);
+        Task<bool> IsExistAsync(int id);
 
     }
 }

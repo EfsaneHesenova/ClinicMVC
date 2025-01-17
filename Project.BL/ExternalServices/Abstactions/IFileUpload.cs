@@ -11,6 +11,6 @@ namespace Project.BL.ExternalServices.Abstactions
     public interface IFileUpload
     {
         Task<string> UploadFile(IFormFile filePath, string allowedExtensions);
-        Task DeleteFile( string envPath);
+        Task DeleteFile( string fileNameWithExtensions);
     }
 }

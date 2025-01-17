@@ -9,8 +9,8 @@ namespace Project.BL.Services.Abstractions
 {
     public interface IAccountService
     {
-        Task RegisterAsync(CreateDto createDto);
-        Task LoginAsync(LoginDto loginDto);
+        Task<bool> RegisterAsync(CreateDto createDto);
+        Task<bool> LoginAsync(LoginDto loginDto);
         Task<bool> LogoutAsync();
     }
 }

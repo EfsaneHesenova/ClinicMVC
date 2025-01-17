@@ -11,9 +11,9 @@ namespace Project.BL.ExternalServices.Implementations
 {
     public class FileUpload : IFileUpload
     {
-        public Task DeleteFile(string envPath)
+        public Task DeleteFile(string fileNameWithExtensions)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<string> UploadFile(IFormFile filePath, string allowedExtensions)

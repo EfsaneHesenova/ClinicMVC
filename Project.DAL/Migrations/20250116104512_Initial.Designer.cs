@@ -11,7 +11,7 @@ using Project.DAL.Contexts;
 
 namespace Project.DAL.Migrations
 {
-    [DbContext(typeof(AppdbContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20250116104512_Initial")]
     partial class Initial
     {

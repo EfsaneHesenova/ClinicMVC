@@ -1,0 +1,997 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\externalservices\\implementations\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\externalservices\\implementations\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\externalservices\\abstactions\\ifileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\externalservices\\abstactions\\ifileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\appuserdtos\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\appuserdtos\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\implementations\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\implementations\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\profiles\\departmentprofiles\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\profiles\\departmentprofiles\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\abstractions\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\abstractions\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\doctordtos\\doctorputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\doctordtos\\doctorputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\departmentdtos\\departmentputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\departmentdtos\\departmentputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\doctordtos\\doctorpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\doctordtos\\doctorpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\dtos\\departmentdtos\\departmentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\dtos\\departmentdtos\\departmentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\configurations\\doctorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\configurations\\doctorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.core\\models\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\models\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\abstractions\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\abstractions\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\repositories\\implementations\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\repositories\\implementations\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\profiles\\accountprofiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\profiles\\accountprofiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\profiles\\doctorprofiles\\doctorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\profiles\\doctorprofiles\\doctorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.bl\\project.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBFABC01-FC51-4C45-901D-57D1E943B8C1}|Project.BL\\Project.BL.csproj|solutionrelative:project.bl\\project.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\migrations\\20250116104512_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\migrations\\20250116104512_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.core\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7457AE-5EAA-412D-A246-DD082BB4F784}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\doctor\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\doctor\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\areas\\admin\\views\\doctor\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\areas\\admin\\views\\doctor\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\project.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\project.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.mvc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0492A236-717A-49BB-A2BA-A870D6978C30}|Project.MVC\\Project.MVC.csproj|solutionrelative:project.mvc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\migrations\\20250116104512_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\migrations\\20250116104512_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|c:\\users\\hesen\\desktop\\clinicmvc\\project.dal\\migrations\\20250116194201_isdeletedadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC71F3A2-FEDE-4BB1-9E26-9B907BC007F8}|Project.DAL\\Project.DAL.csproj|solutionrelative:project.dal\\migrations\\20250116194201_isdeletedadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 154,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFileUpload.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\ExternalServices\\Abstactions\\IFileUpload.cs",
+              "RelativeDocumentMoniker": "Project.BL\\ExternalServices\\Abstactions\\IFileUpload.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\ExternalServices\\Abstactions\\IFileUpload.cs",
+              "RelativeToolTip": "Project.BL\\ExternalServices\\Abstactions\\IFileUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:36:03.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\ExternalServices\\Implementations\\FileUpload.cs",
+              "RelativeDocumentMoniker": "Project.BL\\ExternalServices\\Implementations\\FileUpload.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\ExternalServices\\Implementations\\FileUpload.cs",
+              "RelativeToolTip": "Project.BL\\ExternalServices\\Implementations\\FileUpload.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:36:11.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Abstractions\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IAccountService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Abstractions\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:13:55.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:14:37.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\AccountService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Implementations\\AccountService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\AccountService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Implementations\\AccountService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:14:03.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:50:16.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:10:43.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\AppUserDtos\\CreateDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\AppUserDtos\\CreateDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\AppUserDtos\\CreateDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\AppUserDtos\\CreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:14:51.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Implementations\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\DoctorService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Implementations\\DoctorService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswCgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:12:48.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:47:19.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IRepository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Abstractions\\IRepository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IRepository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Abstractions\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:46:38.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:49:45.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\DepartmentProfiles\\DepartmentProfile.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Profiles\\DepartmentProfiles\\DepartmentProfile.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\DepartmentProfiles\\DepartmentProfile.cs",
+              "RelativeToolTip": "Project.BL\\Profiles\\DepartmentProfiles\\DepartmentProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:07:04.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Abstractions\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IDoctorService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Abstractions\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:12:39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorPutDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DoctorDtos\\DoctorPutDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\DoctorDtos\\DoctorPutDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DoctorDtos\\DoctorPutDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\DoctorDtos\\DoctorPutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:13:24.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentPutDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DepartmentDtos\\DepartmentPutDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\DepartmentDtos\\DepartmentPutDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DepartmentDtos\\DepartmentPutDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\DepartmentDtos\\DepartmentPutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:50:51.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DoctorPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DoctorDtos\\DoctorPostDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\DoctorDtos\\DoctorPostDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DoctorDtos\\DoctorPostDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\DoctorDtos\\DoctorPostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:13:41.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartmentPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DepartmentDtos\\DepartmentPostDto.cs",
+              "RelativeDocumentMoniker": "Project.BL\\DTOs\\DepartmentDtos\\DepartmentPostDto.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\DTOs\\DepartmentDtos\\DepartmentPostDto.cs",
+              "RelativeToolTip": "Project.BL\\DTOs\\DepartmentDtos\\DepartmentPostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:50:25.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:47:50.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:47:17.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DoctorConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Configurations\\DoctorConfigurations.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Configurations\\DoctorConfigurations.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Configurations\\DoctorConfigurations.cs",
+              "RelativeToolTip": "Project.DAL\\Configurations\\DoctorConfigurations.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:31:36.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepartmentConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Configurations\\DepartmentConfigurations.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeToolTip": "Project.DAL\\Configurations\\DepartmentConfigurations.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:31:25.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "Project.DAL\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAACgmZmZmRkmwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:16:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\AppUser.cs",
+              "RelativeToolTip": "Project.Core\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:19:51.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Common\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Models\\Common\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Common\\AuditableEntity.cs",
+              "RelativeToolTip": "Project.Core\\Models\\Common\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:17:52.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Project.Core\\Models\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:17:42.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T20:15:12.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowDUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:15:47.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "RelativeToolTip": "Project.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:49:16.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T20:15:28.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:15:29.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Program.cs",
+              "RelativeToolTip": "Project.MVC\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:37:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Create.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:16:17.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Department.cs",
+              "RelativeToolTip": "Project.Core\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:26:47.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:50:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Abstractions\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Abstractions\\IDoctorRepository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Abstractions\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:47:11.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "RelativeToolTip": "Project.DAL\\Repositories\\Implementations\\DoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:47:29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250116194201_ISDeletedAdd.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116194201_ISDeletedAdd.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Migrations\\20250116194201_ISDeletedAdd.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116194201_ISDeletedAdd.cs",
+              "RelativeToolTip": "Project.DAL\\Migrations\\20250116194201_ISDeletedAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:42:01.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAAAKIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:49:32.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Project.MVC\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T16:38:57.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAmpmZmZkOwAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:32:10.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAACA/////z8lwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:31:50.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Project.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\appsettings.json",
+              "RelativeToolTip": "Project.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T10:36:56.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:31:42.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AccountProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\AccountProfiles\\AccountProfile.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Profiles\\AccountProfiles\\AccountProfile.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\AccountProfiles\\AccountProfile.cs",
+              "RelativeToolTip": "Project.BL\\Profiles\\AccountProfiles\\AccountProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:25:43.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DoctorProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\DoctorProfiles\\DoctorProfile.cs",
+              "RelativeDocumentMoniker": "Project.BL\\Profiles\\DoctorProfiles\\DoctorProfile.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Profiles\\DoctorProfiles\\DoctorProfile.cs",
+              "RelativeToolTip": "Project.BL\\Profiles\\DoctorProfiles\\DoctorProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:22:09.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Project.BL.csproj",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Project.BL.csproj",
+              "RelativeDocumentMoniker": "Project.BL\\Project.BL.csproj",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.BL\\Project.BL.csproj",
+              "RelativeToolTip": "Project.BL\\Project.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T19:21:20.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:49:53.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:49:42.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T16:40:48.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T16:41:04.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250116104512_Initial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116104512_Initial.Designer.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Migrations\\20250116104512_Initial.Designer.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116104512_Initial.Designer.cs",
+              "RelativeToolTip": "Project.DAL\\Migrations\\20250116104512_Initial.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T17:45:40.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AppdbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\AppdbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Migrations\\AppdbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\AppdbContextModelSnapshot.cs",
+              "RelativeToolTip": "Project.DAL\\Migrations\\AppdbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T17:45:56.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:32:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Project.MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:32:38.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.Core\\Models\\Doctor.cs",
+              "RelativeToolTip": "Project.Core\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:26:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Update.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Update.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Update.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:16:03.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Trash.cshtml",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Trash.cshtml",
+              "RelativeDocumentMoniker": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Trash.cshtml",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Areas\\Admin\\Views\\Doctor\\Trash.cshtml",
+              "RelativeToolTip": "Project.MVC\\Areas\\Admin\\Views\\Doctor\\Trash.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:16:56.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Project.MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Project.MVC.csproj",
+              "RelativeDocumentMoniker": "Project.MVC\\Project.MVC.csproj",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\Project.MVC.csproj",
+              "RelativeToolTip": "Project.MVC\\Project.MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T11:34:15.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Project.MVC\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.MVC\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Project.MVC\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-16T11:30:33.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250116104512_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116104512_Initial.cs",
+              "RelativeDocumentMoniker": "Project.DAL\\Migrations\\20250116104512_Initial.cs",
+              "ToolTip": "C:\\Users\\hesen\\Desktop\\ClinicMVC\\Project.DAL\\Migrations\\20250116104512_Initial.cs",
+              "RelativeToolTip": "Project.DAL\\Migrations\\20250116104512_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:45:12.515Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

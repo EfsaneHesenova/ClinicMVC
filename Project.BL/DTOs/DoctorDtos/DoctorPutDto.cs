@@ -14,5 +14,6 @@ namespace Project.BL.DTOs.DoctorDtos
         public string ImageUrl { get; set; }
         public int DepartmentId { get; set; }
         public int Id { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

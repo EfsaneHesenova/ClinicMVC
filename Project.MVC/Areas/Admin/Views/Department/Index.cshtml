@@ -1,0 +1,52 @@
+﻿@model ICollection<Department>;
+
+<a type="button" class="btn btn-success mb-3" asp-area="Admin" asp-controller="Department" asp-action="Create">Department Doctor</a>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+
+
+
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>buttons</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    @if (Model is not null)
+                    {
+
+
+                        @foreach (Department item in @Model)
+                        {
+                            <tr>
+                                <th>@item.Id</th>
+                                <th>@item.Title</th>
+                                <td>
+                                    <a class="btn btn-primary" asp-controller="Department" asp-action="Update" asp-route-id="@item.Id" asp-area="Admin">Update</a>
+                                    <a class="btn btn-danger" asp-controller="Department" asp-action="Delete" asp-route-id="@item.Id" asp-area="Admin">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <p>You Dont Have Doctors</p>
+                    }
+                </tfoot>
+
+
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->

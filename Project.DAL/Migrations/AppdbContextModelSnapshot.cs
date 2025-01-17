@@ -10,7 +10,7 @@ using Project.DAL.Contexts;
 
 namespace Project.DAL.Migrations
 {
-    [DbContext(typeof(AppdbContext))]
+    [DbContext(typeof(AppDbContext))]
     partial class AppdbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -35,6 +35,9 @@ namespace Project.DAL.Migrations
 
                     b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -69,6 +72,9 @@ namespace Project.DAL.Migrations
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()

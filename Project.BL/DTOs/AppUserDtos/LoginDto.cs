@@ -10,5 +10,6 @@ namespace Project.BL.DTOs.AppUserDtos
     { 
         public string Password { get; set;}
         public string EmailOrUserName { get; set;}
+        public bool IsPersistant { get; set;}
     }
 }

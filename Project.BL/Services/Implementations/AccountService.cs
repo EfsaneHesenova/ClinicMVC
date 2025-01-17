@@ -25,9 +25,20 @@ namespace Project.BL.Services.Implementations
             _mapper = mapper;
         }
 
-        public Task LoginAsync(LoginDto loginDto)
+        public async Task<bool> LoginAsync(LoginDto loginDto)
         {
-            throw new NotImplementedException();
+            AppUser? user = await _userManager.FindByEmailAsync(loginDto.EmailOrUserName);
+            if (user is null)
+            {
+                user = await _userManager.FindByNameAsync(loginDto.EmailOrUserName);
+                if (user is null)
+                {
+                    throw new Exception("Something went wrong");
+                }
+            }
+            var entity = await _signInManager.PasswordSignInAsync(user, loginDto.Password, loginDto.IsPersistant, false);
+            if (!entity.Succeeded) { throw new Exception("Something went wrong"); }
+            return entity.Succeeded;
         }
 
         public Task<bool> LogoutAsync()
@@ -35,9 +46,13 @@ namespace Project.BL.Services.Implementations
             throw new NotImplementedException();
         }
 
-        public Task RegisterAsync(CreateDto createDto)
+        public async Task<bool> RegisterAsync(CreateDto createDto)
         {
-            throw new NotImplementedException();
+            AppUser user = _mapper.Map<AppUser>(createDto);
+            var result = await _userManager.CreateAsync(user, createDto.PassWord);
+            if(!result.Succeeded) { throw new Exception("Something went wrong"); }
+            return result.Succeeded;
+
         }
     }
 }

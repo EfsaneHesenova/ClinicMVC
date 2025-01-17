@@ -13,9 +13,9 @@ namespace Project.DAL.Repositories.Implementations
 {
     public class Repository<T> : IRepository<T> where T : BaseEntity, new()
     {
-        private readonly AppdbContext _context;
+        private readonly AppDbContext _context;
 
-        public Repository(AppdbContext context)
+        public Repository(AppDbContext context)
         {
             _context = context;
         }
@@ -27,7 +27,7 @@ namespace Project.DAL.Repositories.Implementations
           await Table.AddAsync(entity);
         }
 
-        public void DeleteAsync(T entity)
+        public void Delete(T entity)
         {
            Table.Remove(entity);
         }
@@ -47,12 +47,12 @@ namespace Project.DAL.Repositories.Implementations
 
         public async Task<T> GetByIdAsync(int id, params string[] includes)
         {
-           var entity = Table.Where(x => x.Id == id);
+            IQueryable<T> query = Table.AsQueryable();
             if (includes.Length > 0)
             {
                 foreach (var include in includes)
                 {
-                    entity = Table.Include(include);
+                    query = query.Include(include);
                 }
             }
            T? result = await Table.FirstOrDefaultAsync(x => x.Id == id);
@@ -60,16 +60,19 @@ namespace Project.DAL.Repositories.Implementations
 
         }
 
-        public IQueryable<T> GetSingleByCondition(Expression<Func<T, bool>> condition)
+        public async Task<T> GetSingleByCondition(Expression<Func<T, bool>> condition)
         {
             IQueryable<T> query = Table.AsQueryable();
-            return query = query.Where(condition);
+            
+            T? entity = await query.SingleOrDefaultAsync(condition);
+
+            return entity;
 
         }
 
-        public async Task IsExistAsync(int id)
+        public async Task<bool> IsExistAsync(int id)
         {
-           await  Table.AnyAsync(x => x.Id == id);
+           return await  Table.AnyAsync(x => x.Id == id);
         }
 
         public async Task<int> SaveChangesAsync()
@@ -78,7 +81,7 @@ namespace Project.DAL.Repositories.Implementations
             return rows;
         }
 
-        public void UpdateAsync(T entity)
+        public void Update(T entity)
         {
             Table.Update(entity);
         }
